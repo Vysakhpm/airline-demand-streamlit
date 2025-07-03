@@ -1,27 +1,29 @@
 # ✈️ Airline Market Demand Tracker
 
-This is a live airline demand dashboard built with **Python** and **Streamlit**. It uses the free [OpenSky API](https://opensky-network.org/) to fetch real-time flight data and visualizes:
+A real-time web dashboard that tracks live airline demand using the [OpenSky Network API](https://opensky-network.org/), built with **Streamlit**.
 
-- 🌍 Top 5 countries by number of active flights
-- 💨 Top 5 countries by average flight velocity
+It displays:
+- 🌍 Top 5 countries by active flights
+- 💨 Countries with the highest average flight velocity
+- 📊 Interactive bar charts
+- 🧠 (Bonus) GPT-powered trend summary using ChatGPT API
+
+---
 
 ## 🔧 Features
-- Live flight data using OpenSky API
-- Interactive bar charts with Plotly
-- Clean UI with Streamlit
-- Data table with flight metadata
 
-## 🧪 Tech Stack
-- Python
-- Streamlit
-- Pandas
-- Plotly
-- Requests
+- ✅ Live flight data from OpenSky
+- ✅ Clean and responsive UI using Streamlit + Plotly
+- ✅ Raw data explorer
+- ✅ GPT summary (requires your OpenAI API key)
 
-## 🚀 How to Run Locally
+---
 
+## 🚀 How to Run
+
+### 🔗 Requirements:
 ```bash
-git clone https://github.com/YOUR_USERNAME/airline-demand-streamlit.git
-cd airline-demand-streamlit
 pip install -r requirements.txt
+
+▶️ Launch app:
 streamlit run app.py

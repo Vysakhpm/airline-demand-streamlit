@@ -1,4 +1,6 @@
 # app.py
+from gpt_summary import generate_summary
+import os
 import streamlit as st
 import plotly.graph_objects as go
 from opensky_api import fetch_flight_data
@@ -35,3 +37,17 @@ st.plotly_chart(fig2)
 # Show raw data (optional)
 with st.expander("📄 Show Raw Data"):
     st.dataframe(df[['callsign', 'origin_country', 'latitude', 'longitude', 'velocity']])
+
+# 🧠 GPT Trend Summary
+st.subheader("🧠 Trend Summary (Powered by ChatGPT API)")
+
+api_key = st.text_input("Enter your OpenAI API Key to generate a summary:", type="password")
+st.caption("Note: This feature requires a working OpenAI API key. Free-tier keys may show quota errors.")
+if api_key:
+    os.environ["OPENAI_API_KEY"] = api_key
+    summary = generate_summary(top_countries, avg_velocity)
+    st.info(summary)
+else:
+    st.warning("Please enter your OpenAI API key above to generate a trend summary.")
+
+
