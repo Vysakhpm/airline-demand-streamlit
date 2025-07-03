@@ -1,7 +1,8 @@
 # ✈️ Airline Market Demand Tracker
 
+![Uploading Screenshot 2025-07-03 115932.png…]()
 ![Screenshot 2025-07-03 110820](https://github.com/user-attachments/assets/29efbee4-1dd9-4ce0-8c4b-cda746337ad9)
-![Screenshot 2025-07-03 110832](https://github.com/user-attachments/assets/5c6d86c1-c723-4bcc-b9a8-1e820adbd9b4)
+
 ![Screenshot 2025-07-03 110740](https://github.com/user-attachments/assets/6caed7f3-a1c2-476a-bf4f-990ae5e20759)
 
 A real-time web dashboard that tracks live airline demand using the [OpenSky Network API](https://opensky-network.org/), built with **Streamlit**.
