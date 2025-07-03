@@ -1,7 +1,8 @@
 # ✈️ Airline Market Demand Tracker
 
-![Uploading Screenshot 2025-07-03 115932.png…]()
+
 ![Screenshot 2025-07-03 110820](https://github.com/user-attachments/assets/29efbee4-1dd9-4ce0-8c4b-cda746337ad9)
+![Screenshot 2025-07-03 115932](https://github.com/user-attachments/assets/09affc7c-105a-41cf-b016-1f74d7f88eca)
 
 ![Screenshot 2025-07-03 110740](https://github.com/user-attachments/assets/6caed7f3-a1c2-476a-bf4f-990ae5e20759)
 
